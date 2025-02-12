@@ -11,11 +11,16 @@
 ```
 niwanowa-slides/
 ├── slides/                  # スライド集のルートディレクトリ
-│   └── generative-ai/       # 生成AIに関するスライド
-│       ├── slide/           # スライドのソースファイル
+│   └── [slide-name]/        # 各スライドのディレクトリ（例：generative-ai）
+│       ├── README.md        # スライドの説明
+│       ├── outline/         # 案だし用フォルダ
+│       │   ├── outline.md   # アウトライン
+│       │   └── content.md   # コンテンツ
+│       ├── slide/           # スライド用フォルダ
+│       │   ├── slide.md     # スライドのソースファイル
 │       │   ├── fonts/       # フォントファイル
 │       │   └── images/      # 画像ファイル
-│       └── output/          # 生成されたスライド
+│       └── output/          # 生成されたスライド（出力用フォルダ）
 │           ├── html/        # HTML形式
 │           ├── pdf/         # PDF形式
 │           └── pptx/        # PowerPoint形式
