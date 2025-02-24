@@ -1,6 +1,7 @@
 # Output directories
 output/
 *.zip
+fonts/
 
 # Node modules
 node_modules/
