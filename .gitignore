@@ -17,7 +17,7 @@ Thumbs.db
 # Editor directories and files
 .idea/
 .vscode/
-.cursor/
+.cursor/*
 *.swp
 *.swo
 *~
