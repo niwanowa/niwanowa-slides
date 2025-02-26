@@ -6,7 +6,7 @@ header: "生成AI入門"
 style: |
   @font-face {
     font-family: 'Uzura';
-    src: url('./fonts/uzura.ttf') format('truetype');
+    src: url('../../../fonts/uzura.ttf') format('truetype');
   }
   section {
     font-family: 'Uzura', sans-serif !important;
