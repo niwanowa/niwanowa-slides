@@ -4,7 +4,24 @@
 
 ## スライド一覧
 
-1. [生成 AI 入門](./generative-ai/README.md) - 生成 AI の基礎と実用的なサービスの紹介
+1. [生成 AI 入門](./slides/generative-ai/README.md) - 生成 AI の基礎と実用的なサービスの紹介
+
+## リポジトリ構造
+
+```
+niwanowa-slides/
+├── slides/                  # スライド集のルートディレクトリ
+│   └── generative-ai/       # 生成AIに関するスライド
+│       ├── slide/           # スライドのソースファイル
+│       │   ├── fonts/       # フォントファイル
+│       │   └── images/      # 画像ファイル
+│       └── output/          # 生成されたスライド
+│           ├── html/        # HTML形式
+│           ├── pdf/         # PDF形式
+│           └── pptx/        # PowerPoint形式
+└── .cursor/                 # Cursor IDE設定
+    └── git.md               # Gitの使用ルール
+```
 
 ## 使用方法
 
@@ -23,16 +40,7 @@ npm install
 
 ### スライドの生成
 
-```bash
-# HTMLとして出力
-npx @marp-team/marp-cli slide.md --html
-
-# PDFとして出力
-npx @marp-team/marp-cli slide.md --pdf
-
-# PowerPointとして出力
-npx @marp-team/marp-cli slide.md --pptx
-```
+各スライドディレクトリ内の README ファイルに、スライド生成方法の詳細が記載されています。
 
 ## 作者
 
